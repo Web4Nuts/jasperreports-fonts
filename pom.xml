@@ -20,6 +20,18 @@
 		<tag>6.15.0</tag>
 		<url>https://github.com/Jaspersoft/jasperreports</url>
 	</scm>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>groople-artifactory-snapshot</id>
+			<name>groople-artifactory-snapshot</name>
+			<url>https://artifactory.dev.groople.me/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+		<repository>
+			<id>groople-artifactory-release</id>
+			<name>groople-artifactory-release</name>
+			<url>https://artifactory.dev.groople.me/artifactory/libs-release</url>
+		</repository>
+	</distributionManagement>
 	<developers>
 		<developer>
 			<id>teodord</id>
